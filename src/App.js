@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import Routes thay vì Switch
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import routes from './routes/routes';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <Router>
-        <Routes> {/* Sử dụng Routes thay vì Switch */}
+        <Routes>
           {routes.map((route, index) => {
             const Page = route.page;
             return (
