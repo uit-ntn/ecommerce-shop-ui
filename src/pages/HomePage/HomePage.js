@@ -1,5 +1,13 @@
 import React from "react";
- const HomePage  = () =>{
+import Layout from "../../components/Default/Layout/Layout";
 
- }
+
+function HomePage(){
+    return(
+
+        <Layout>
+        <div className="HomePage">Home</div>
+        </Layout>      
+    )
+}
  export default HomePage;
